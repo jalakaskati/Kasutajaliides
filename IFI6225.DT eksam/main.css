@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+html, body {
+  overflow-x: hidden;
+}
+
+body, h1, h2, h3, h4, h5, h6  {
+  font-family: "Trebuchet MS", Tahoma, sans-serif;
+}
+
+
+/* carousel styles */
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 7vw;
+  font-weight: bold; 
+}
+
+.video-thumbnail {
+  position: relative;
+  display: block;
+}
+
+.video-thumbnail img.playbtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.video-wrapper {
+  display: none;
+  position: relative;
+  padding-top: 56.25%;
+  height: 0;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* page styles */
+.fullwidth {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  flex: 1;
+  padding: 20px;
+}
+
+
+.content-half img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn-red {
+  background-color: #D41217;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-red:hover {
+  background-color: #980c11;
+  color: #fff;
+}
+
+
+
+.background-OnlineGame {
+  color: #8DB524; 
+  background-color: #d3ea99;
+}
+
+.background-RestaurangCasino {
+  color: #8961A6; 
+  background-color: #c5acd6;
+}
+
+.background-Yggdrasil {
+  color: #F39332; 
+  background-color: #fac085;
+}
+
+.background-GameLounge {
+  color: #41BFED; 
+  background-color: #a7def2;
+}
+
+.background-GreyDark {
+  color:#7B858A; 
+  background-color: #C8C8CA;
+}
+
+.background-Cherry {
+  color: #D41217;
+  background-color: #f0a0a3;
+}
+
+
+.cookie-notice {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.cookie-text p {
+  margin: 0;
+}
+
+.cookie-btns .btn-red {
+  background-color: red;
+  color: white;
+}
+
+.cookie-btns .btn-red:hover {
+  background-color: #980c11;
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+
+footer {
+  background-color: #fce6e6;
+  padding: 20px 0;
+  color: #333;
+}
+
+.footer-logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  text-align: left;
+  padding: 20px;
+}
+
+.column {
+  flex: 1;
+  min-width: 150px;
+}
+
+.menu-item {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+  color: #D41217;
+  text-decoration: none;
+}
+
+.menu-item-s {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  display: block;
+  color: #555;
+  text-decoration: none;
+}
+
+.menu-item:hover,
+.menu-item-s:hover {
+  color: #D41217;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px;
+}
+
+.links a {
+  margin: 0 10px;
+  color: #D41217;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+  color: #D41217;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Custom card styles */
+.card {
+  border: none;
+  border-radius: 0 !important;
+  margin: 0;
+}
+
+.custom-bg-color-1 {
+  background-color: #8961A6 !important;
+  color: white !important;
+}
+
+.custom-bg-color-2 {
+  background-color: #F39332 !important;
+  color: white !important;
+}
+
+.custom-bg-color-3 {
+  background-color: #8DB524 !important;
+  color: white !important;
+}
+
+.custom-bg-color-4 {
+  background-color: #D41217 !important; 
+  color: white !important;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-cols-1 > .col,
+.row-cols-lg-4 > .col {
+  padding: 0;
+}
+
+.btn-white {
+  background-color: #fff !important;
+  color: #000;
+  border: 1px solid #fff;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.btn-white:hover {
+  background-color: #e9ecef;
+  color: #000;
+}
+
+.group {
+  margin-bottom: 15px;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.socials h4 {
+  text-align: center;
+  color: #D41217;
+  padding: 15px;
+}
+
+.socials .social-links {
+  display: flex;
+  justify-content: center;
+
+}
+
+.ComeOn {
+  background-color: #8DB524; 
+}
+
+.RestaurangCasino {
+  background-color: #8961A6; 
+}
+
+.Yggdrasil {
+  background-color: #F39332; 
+}
+
+.GameLounge {
+  background-color: #41BFED; 
+}
+
+.GreyDark {
+  background-color: #7B858A;
+}
